@@ -1,0 +1,40 @@
+body {
+    background-image: url("http://getwallpapers.com/wallpaper/full/d/5/1/985686-diamond-background-images-1920x1080-macbook.jpg");   
+    font-family: 'Noto Serif JP', sans-serif;
+    font-style: strong;
+
+}
+
+    h1 {
+    
+}
+
+p {
+    font-family: 'Noto Serif JP', sans-serif;
+
+}
+
+.par {
+    background-color: white;
+    opacity: .5;
+    font-style: strong;
+    width: 800px;
+}
+
+.crystal {
+    width: 15%;
+    height: 150px;
+}
+
+.box {
+    background-color: white;
+    width: 20%;
+    height: 200px; 
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box h3, .box p {
+    display: inline-block;
+}
+

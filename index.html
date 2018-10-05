@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+
+    <h1>Crystal Collector!</h1>
+    <br>
+    <br>
+    <br>
+
+    <div class=par>
+    <p>You will be given a random number at the start of the game</p>
+    <br>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <br>
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above random number</p>
+    <br>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <br>
+    <p>Each time when the game starts, the game will change the value of each crystal.</p>
+    </div>
+
+   <img id="emerald" class="crystal" src="https://www.jewelinfo4u.com/wp-content/uploads/2016/03/emerald-7-1.jpg" alt="" data-number/>
+   <img id="amethyst"class="crystal" src="https://5.imimg.com/data5/FG/CX/MY-15247360/natural-amethyst-gemstone-250x250.png" alt="" data-number/>
+   <img id="diamond" class="crystal" src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_4124,w_4482,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_640/hou_1116_gems_big_diamond_pv0wdx.jpg" alt="" data-number/>
+   <img id="saphire" class="crystal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZf9ORtovm3vNNa7ReubGstLfIgkVy7RDx81rODSJAoObkZ7hX" alt=""data-number/>
+<br>
+<hr>
+    <div id="randomNumber" class="box">
+        <h2></h2>
+
+    </div>
+   
+
+    <div id="winsAndlosses" class="box">
+        <div id="wins">
+            <h3>Wins:</h3>
+            <p></p>
+        </div>
+        <div id="losses">
+            <h3>Losses:</h3>
+            <p></p>
+        </div>
+    </div>
+
+
+    <div id="currentTotal" class="box">
+        <h3>Current Total:</h3>
+        <p></p>
+    </div>
+
+
+   
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/javascript/crystal.js"></script>
+</body>
+</html>
